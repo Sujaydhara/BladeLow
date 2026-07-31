@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blade Asset Library</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<div class="app">
+    <aside class="sidebar">
+        <div class="brand">
+            <div class="logo">B</div>
+            <div>
+                <h1>Blade</h1>
+                <span>Asset Library</span>
+            </div>
+        </div>
+
+        <button class="nav active" data-category="All">⌂ <span>All Assets</span></button>
+        <div id="categoryNav"></div>
+
+        
+    </aside>
+
+    <main class="main">
+        <header class="topbar">
+            <div>
+                <div class="eyebrow">BLADE ASSET LIBRARY</div>
+                <h2 id="pageTitle">All Assets</h2>
+            </div>
+            <div class="top-actions">
+               <div class="search">
+              <span>⌕</span>
+              <input id="searchInput" placeholder="Search assets...">
+              <kbd>Ctrl K</kbd>
+              </div>
+
+      <button class="refresh-top" id="refreshBtn">
+        ↻ Refresh
+        </button>
+         </div>
+        </header>
+
+        <section class="stats">
+            <div class="stat"><span>Total Assets</span><strong id="totalCount">0</strong></div>
+            <div class="stat"><span>Category</span><strong id="categoryCount">0</strong></div>
+            <div class="stat"><span>Visible</span><strong id="visibleCount">0</strong></div>
+        </section>
+
+        <div class="toolbar">
+            <div class="breadcrumbs" id="breadcrumbs">All Assets</div>
+            <select id="typeFilter">
+                <option value="all">All Types</option>
+                <option value="audio">Audio</option>
+                <option value="video">Video</option>
+                <option value="image">Image</option>
+                <option value="font">Font</option>
+                <option value="file">Other</option>
+            </select>
+        </div>
+
+        <section id="assetGrid" class="asset-grid"></section>
+        <div id="empty" class="empty hidden">
+            <div>⌕</div>
+            <h3>No assets found</h3>
+            <p>Try another search or add files to your assets folder.</p>
+        </div>
+    </main>
+</div>
+
+<div id="toast" class="toast"></div>
+<script src="/static/app.js"></script>
+</body>
+</html>

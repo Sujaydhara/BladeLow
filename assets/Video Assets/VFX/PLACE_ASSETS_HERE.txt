@@ -1,0 +1,3 @@
+Folder: VFX
+
+Place your editing assets here.

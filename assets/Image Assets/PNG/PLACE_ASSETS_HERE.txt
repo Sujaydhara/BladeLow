@@ -1,0 +1,3 @@
+Folder: PNG
+
+Place your editing assets here.

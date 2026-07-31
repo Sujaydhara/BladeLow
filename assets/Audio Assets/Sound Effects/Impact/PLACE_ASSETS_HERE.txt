@@ -1,0 +1,3 @@
+Folder: Sound Effects/Impact
+
+Place your editing assets here.

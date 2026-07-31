@@ -1,0 +1,3 @@
+Folder: Dark
+
+Place your editing assets here.

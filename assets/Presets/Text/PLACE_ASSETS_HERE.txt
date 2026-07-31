@@ -1,0 +1,3 @@
+Folder: Text
+
+Place your editing assets here.

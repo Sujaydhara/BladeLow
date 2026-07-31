@@ -1,0 +1,3 @@
+Folder: Transitions
+
+Place your editing assets here.
